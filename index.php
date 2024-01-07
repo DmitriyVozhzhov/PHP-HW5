@@ -26,10 +26,10 @@ declare(strict_types=1);
 //
 //echo multiplication(5.2,3);
 
-// 2.піднесення до степеня => стрілочка ф-ція
-//$multiplication2= fn (int|float $a, int|float $b):int|float => $result = $a ** $b;
-//
-//echo $multiplication2(5,3) . PHP_EOL;
+ 2.піднесення до степеня => стрілочка ф-ція
+$multiplication2= fn (int|float $a, int|float $b):int|float =>  $a ** $b;
+
+echo $multiplication2(5,3) . PHP_EOL;
 
 
 
